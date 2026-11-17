@@ -1,0 +1,14 @@
+{
+  "name": "anderson-high",
+  "version": "1.0.0",
+  "description": "Anderson High - an online multiplayer social deduction game set in a two-floor high school",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT",
+  "private": true
+}

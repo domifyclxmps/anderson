@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: anderson-high
+    runtime: node
+    buildCommand: "echo no build needed"
+    startCommand: node server/index.js
+    healthCheckPath: /health
